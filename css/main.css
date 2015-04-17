@@ -8,14 +8,15 @@ body {
 
 header {
   background-color: #e2e2e2;
-  padding: 1em 0 40px;
+  padding: 1em 0 0px;
   text-align: center;
   position: relative;
 }
 
 h1{
   text-align: center;
-  margin: 0 0 1rem;
+  padding: 0 0 1rem;
+  margin: 0 0 0rem;
   font-size: 1.5rem;
 }
 
@@ -25,15 +26,11 @@ h1{
   list-style-type: none;
   background-color: #ccc;
   display: none;
-  position: absolute;
   right: 0;
-  top: 100%;
-  width: 15em;
 }
 
 .nav a {
   display: block;
-  padding: 0.5em;
   text-decoration: none;
   color: #000;
 }
@@ -58,8 +55,8 @@ h1{
   display: inline-block;
   width: 40px;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 10px;
+  top: .7em;
 }
 
 .nav-open,
@@ -69,7 +66,7 @@ h1{
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: #ccc;
+  background-color: #;
 }
 
 .nav-close {
