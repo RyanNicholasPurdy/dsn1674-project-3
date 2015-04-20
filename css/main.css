@@ -10,6 +10,7 @@ body{
 header {
   background-color: #6cc2d9;
   padding: 1em 0 0px;
+  margin: 0;
   text-align: center;
   color: white;
   position: relative;
@@ -176,4 +177,35 @@ div.about-text span{
 .entree-body{
   color: black;
   padding-bottom: 1em;
+}
+
+.entree-pic{
+  background-image: url("../images/shell.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 80px;
+  border-bottom: 8px solid #63b1c7;
+}
+
+.sides-box{
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0em;
+  color: #6cc2d9;
+}
+
+.sides-body{
+  color: black;
+  padding-bottom: 1em;
+}
+
+.sides-pic{
+  background-image: url("../images/salad.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 80px;
+  border-bottom: 8px solid #63b1c7;
 }
