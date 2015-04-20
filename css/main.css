@@ -138,3 +138,13 @@ div{
 .about-body{
   color: white;
 }
+
+.left-top{
+  float: left;
+  text-align: center;
+}
+
+.right-top{
+  float: right;
+  text-align: center;
+}
