@@ -2,8 +2,9 @@ html {
   font: normal 100%/1.5 Georgia,serif;
 }
 
-body {
+body{
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -83,4 +84,57 @@ h1{
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+.shell{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.quote{
+  text-align: left;
+  color: white;
+  background-color: #6cc2d9;
+  margin: 0;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+  font-size: .75em;
+}
+
+div{
+  margin: 0;
+  padding: 0;
+}
+
+.about-box{
+  background-image: url("../images/shell.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 3em;
+}
+
+.about-content{
+  margin: 0;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  padding-top: 0em;
+}
+
+.about-title{
+  color: #6cc2d9;
+}
+
+.about-body{
+  color: white;
 }
