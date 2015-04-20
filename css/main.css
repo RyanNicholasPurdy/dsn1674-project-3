@@ -167,7 +167,7 @@ div.about-text span{
 }
 
 .entree-box{
-  padding-top: 2em;
+  padding-top: 1em;
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 0em;
@@ -189,7 +189,7 @@ div.about-text span{
 }
 
 .sides-box{
-  padding-top: 2em;
+  padding-top: 1em;
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 0em;
@@ -211,7 +211,7 @@ div.about-text span{
 }
 
 .dessert-box{
-  padding-top: 2em;
+  padding-top: 1em;
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 0em;
@@ -224,10 +224,24 @@ div.about-text span{
 }
 
 .dessert-pic{
-  background-image: url("../images/chocolate.jpg");
+  background-image: url("../images/bar.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center;
   height: 80px;
   border-bottom: 8px solid #63b1c7;
+}
+
+.contact-box{
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0em;
+  color: white;
+  background-color: #6cc2d9;
+}
+
+.contact-body{
+  color: white;
+  padding-bottom: 1em;
 }
