@@ -139,12 +139,25 @@ div{
   color: white;
 }
 
+.about-text{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+div.about-text span{
+  display: table-cell;
+  text-align: center;
+}
+
 .left-top{
-  float: left;
   text-align: center;
 }
 
 .right-top{
-  float: right;
+  text-align: center;
+}
+
+.center-top{
   text-align: center;
 }
