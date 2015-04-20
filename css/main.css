@@ -180,10 +180,10 @@ div.about-text span{
 }
 
 .entree-pic{
-  background-image: url("../images/shell.jpg");
+  background-image: url("../images/burger.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center;
   height: 80px;
   border-bottom: 8px solid #63b1c7;
 }
@@ -205,7 +205,29 @@ div.about-text span{
   background-image: url("../images/salad.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center;
+  height: 80px;
+  border-bottom: 8px solid #63b1c7;
+}
+
+.dessert-box{
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0em;
+  color: #6cc2d9;
+}
+
+.dessert-body{
+  color: black;
+  padding-bottom: 1em;
+}
+
+.dessert-pic{
+  background-image: url("../images/chocolate.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
   height: 80px;
   border-bottom: 8px solid #63b1c7;
 }
