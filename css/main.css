@@ -1,5 +1,6 @@
 html {
-  font: normal 100%/1.5 Georgia,serif;
+  box-sizing: border-box;
+  font-family: 'Maven+Pro', sans-serif;
 }
 
 body{
